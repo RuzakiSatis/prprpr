@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-family: 'Alumni Sans Inline One', sans-serif;
+        font-family: 'Fredericka the Great', serif;
+        font-size: 28px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 10px;
+
+        color: antiquewhite;
+
+        span.container_cursor{
+            display: inline-block;
+            background-color: rgb(254, 254, 254);
+            width: 3px;
+            animation: blink 1s infinite;
+
+            &.typing {
+                animation: none;
+            }
+        }
+    }
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}

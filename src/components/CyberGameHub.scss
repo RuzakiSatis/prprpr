@@ -1,0 +1,20 @@
+.section{
+    display: flex;
+    max-width: 1420px;
+    padding: 25px;
+    &_devices{
+        text-align: center;
+        margin-top: 80px;
+        margin: 0 auto;
+        &_block{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.203);
+
+        }
+    }
+}
